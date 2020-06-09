@@ -41,14 +41,14 @@ Nach der Installation und den Neustart des OS starten wir mit der Konfiguration 
 3.1.	Hierzu müssen sie wieder das Feld PermitRootLogin auskommentieren  
 3.1.1.	 Dann müssen sie nur noch dem Feld PermitRootLogin „no“ anfügen  
 4.	Nun geht es darum in ihren Netzwerkeinstellungen für die VM das Port Forwarding zu aktivieren  
-4.1.	Bei VirtualBox sehen sie einen Tab Maschine. Von hier aus müssen sie auf Ändern->Netzwerk->Erweitert->Port-Weiterleitung gehen  
+4.1.	Beim VirtualBox Fenster sehen sie einen Tab namens Maschine. Von hier aus müssen sie auf Ändern->Netzwerk->Erweitert->Port-Weiterleitung gehen  
 4.2.	Meine Einstellungen waren :  Host-IP:  127.0.0.1| Host-Port: 44444 | Gast-IP 10.0.2.15 | Gast-Port: 65100  
 4.3.	Die Host-IP wäre in meinen Fall die Loopback Adresse     
 4.4.	Der Host-Port kann frei gewählt werden  
 4.5.	Die lokale IP-Adresse von der VM wird bei der Gast-IP eingetragen   
 4.5.1.	Falls sie diese nicht wissen geben sie das Command: $ Ip addr auf Ihrer VM ein   
 4.5.1.1. In meinen Fall ist die IP: 10.0.2.15  
-4.6.	Nun bei dem Gast-Port ist es wichtig, dass sie den Port eingeben über den ihre SSH-Service erreichbar ist. Dies haben vorhin in der config Datei für den SSH-Service definiert (in meinem Fall war dies 65100)
+4.6.	Nun bei dem Gast-Port ist es wichtig, dass sie den Port eingeben über den ihre SSH-Service erreichbar ist. Dies haben wir vorhin in der config Datei für den SSH-Service definiert (in meinem Fall war dies 65100)
 4.6.1.	Host-IP = Loopback (127.0.0.1)
 4.6.2.	Host-Port= Beispielweise 44444  
 4.6.3.	Lokale IP von VM: 10.0.2.15  
