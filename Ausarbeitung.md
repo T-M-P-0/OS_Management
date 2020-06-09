@@ -6,7 +6,7 @@ Ausgewähltes Linux Distro: Ubunto Server 20.04.
 1.	Tastatur konfigurieren  
 1.1.	Layout auswählen: Deutsch  
 1.2.	Variante auswählen: Deutsch
-2.	Netzwerkverbindungen einrichten (Auswahl des Network-Interfaces)  
+2.	Netzwerkverbindungen einrichten (Auswahl des Netzwerk-Interfaces)  
 2.1	Default gelassen
 3. Konfiguration eines Proxys  
 3.1	Default gelassen  
@@ -22,7 +22,7 @@ Ausgewähltes Linux Distro: Ubunto Server 20.04.
 7.3.	Username  
 7.4.	Password  
 8.	SSH Setup  
-8.1.	Installation des SSH-Daemon ,OpenSSH   
+8.1.	Installation des SSH-Daemon, OpenSSH   
 9.	Featured Server Snaps   
 9.1.	Default  
 10.	Installation   
