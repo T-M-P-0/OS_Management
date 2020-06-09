@@ -6,7 +6,7 @@ Ausgewähltes Linux Distro: Ubunto Server 20.04.
 1.	Tastatur konfigurieren  
 1.1.	Layout auswählen: Deutsch  
 1.2.	Variante auswählen: Deutsch
-2.	Netzwerkverbindungen einrichten (Auswahl des NI)  
+2.	Netzwerkverbindungen einrichten (Auswahl des Network-Interfaces)  
 2.1	Default gelassen
 3. Konfiguration eines Proxys  
 3.1	Default gelassen  
