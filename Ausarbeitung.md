@@ -1,6 +1,6 @@
-#Ausarbeitung OS-Management
+# Ausarbeitung OS-Management
 ***
-##**Ablauf der Installation der VM**
+## **Ablauf der Installation der VM**
 ***
 Ausgewähltes Linux Distro: Ubunto Server 20.04.
 1.	Tastatur konfigurieren  
@@ -30,7 +30,7 @@ Ausgewähltes Linux Distro: Ubunto Server 20.04.
 Nach der Installation und den Neustart des OS starten wir mit der Konfiguration des SSH-Daemons (OpenSSH).  
 
 ***
-##**Konfiguration von OpenSSH:**
+## **Konfiguration von OpenSSH:**
 ***
 1.	Öffnen des config  files:  
 1.1	Command: $ sudo vim /etc/ssh/shh_config  
@@ -57,7 +57,7 @@ Nach der Installation und den Neustart des OS starten wir mit der Konfiguration 
 Nun ist es Ihnen möglich sich zu ihrem Server mittels SSH von ihrer Hostmaschine zu verbinden.  
 
 ***
-##**Verbindung zu der VM herstellen mittels SSH**
+## **Verbindung zu der VM herstellen mittels SSH**
 ***
 Dazu müssen folgende Schritte beachtet werden:
 1.	Zuerst einmal muss auf ihrer Hostmaschine ein SSH Public Key file generiert werden    
@@ -80,7 +80,7 @@ Dazu müssen folgende Schritte beachtet werden:
 5.1	Command: $ ssh -p 44444 tom@127.0.0.1
 
 ***
-##**Firewall konfigurieren**
+## **Firewall konfigurieren**
 ***
 1.	Zuerst alle Verbindungen zu den Ports unterbinden  
 1.1	Command: $ ufw default deny  
