@@ -76,7 +76,7 @@ Dazu müssen folgende Schritte beachtet werden:
 4.	Nun gehen sie wieder auf ihr SSH Config file, öffnen es $ sudo vim /etc/ssh/sshd_config und nehmen folgende Änderungen vor:  
 4.1	Kommentieren sie „PasswordAuthentication“ aus und ergänzen mit:  PasswordAuthentication no  
 4.2	Kommentieren sie „PubKeyAuthentication“ aus und ergänzen mit: PubKeyAuthentication yes  
-5. Nun können sie vom Host aus mittels SSH auf Server verbinden: 
+5. Nun können sie vom Host aus mittels SSH auf Server verbinden:  
 5.1	Command: $ ssh -p 44444 tom@127.0.0.1
 
 ***
