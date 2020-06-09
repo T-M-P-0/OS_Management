@@ -48,7 +48,7 @@ Nach der Installation und den Neustart des OS starten wir mit der Konfiguration 
 4.5.	Die lokale IP-Adresse von der VM wird bei der Gast-IP eingetragen   
 4.5.1.	Falls sie diese nicht wissen geben sie das Command: $ Ip addr auf Ihrer VM ein   
 4.5.1.1. In meinen Fall ist die IP: 10.0.2.15  
-4.6.	Nun bei dem Gast-Port ist es wichtig, dass sie den Port eingeben über den ihre SSH-Service erreichbar ist. Dies haben wir vorhin in der config Datei für den SSH-Service definiert (in meinem Fall war dies 65100)
+4.6.	Nun bei dem Gast-Port ist es wichtig, dass sie den Port eingeben über den ihre SSH-Service erreichbar ist. Dies haben wir vorhin in der config Datei für den SSH-Service definiert (in meinem Fall war dies 65100)  
 4.6.1.	Host-IP = Loopback (127.0.0.1)
 4.6.2.	Host-Port= Beispielweise 44444  
 4.6.3.	Lokale IP von VM: 10.0.2.15  
