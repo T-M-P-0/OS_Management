@@ -92,12 +92,12 @@ Dazu müssen folgende Schritte beachtet werden:
 ***
 ## **Firewall konfigurieren**
 ***
-1.	Zuerst alle Verbindungen zu den Ports unterbinden  
+1.	Um sämtliche Verbindungen zu ihren verfügbaren Ports zu unterbinden 
 1.1	Command:   
 `$ ufw default deny`  
-2.	Nun müssen sie den Port auf den ihr SSH Service läuft von die Firewall zulassen   
+2. Um nun den Port auf den ihr SSH Service läuft von die Firewall zuzulassen 
 2.1.Command:  
-`$ sudo allow 65100 (Port von SSH auf VM)`  
+`$ sudo allow 65100`  
 3.	Um die Firewall dann zu aktivieren  
 3.1	Command:  
 `$ sudo ufw enable`    
